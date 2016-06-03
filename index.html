@@ -1,19 +1,26 @@
 ---
 layout: home
-title: Diovane Monteiro | Desenvolvedor PHP
 ---
 
-<div class="starter-template">
-  <a href="/about"><img src="https://s.gravatar.com/avatar/eca0b8b58ecfe56754db566e202d3a9c?s=170" alt="Diovane Monteiro de Sousa" class="profile-picture img-circle animated fadeInDown"></a>
-  <h2 class="animated fadeInUp">Olá! Seja Bem-Vindo! Meu nome é</h2>
-  <h1 class="animated fadeInUp">{{site.title}}</h1>
-  <h2 class="animated fadeInUp">e eu sou desenvolvedor PHP com muito orgulho.</h2>
-  <!-- <p class="lead animated fadeIn">Olá! Seja Bem-Vindo! Meu nome é Diovane Monteiro e este é meu blog. Eu sou desenvolvedor web com mais de 10 anos de experiência, moro em Manaus - AM e atualmente trabalho com desenvolvimento de software em PHP, Laravel, CakePHP e AngularJS.</p> -->
+<div class="home">
 
-<!--   <ul class="animated fadeInUp" style="margin-top: 40px; padding: 0px;">
-    <li style="display: inline;"><a href="/blog" class="btn btn-lg btn-info">Blog</a></li>
-    <li style="display: inline;"><a href="/about" class="btn btn-lg btn-success">Sobre mim</a></li>
-  </ul>
- -->
-  {% include social.html %}
+  <div class="home-inner">
+
+    <a href="{{ '/about' | prepend: site.baseurl }}">
+      <img src="{{ site.author.gravatar }}" alt="Diovane onteiro de Sousa" class="profile-picture img-circle animated fadeInDown">
+    </a>
+
+    <h2 class="animated fadeInUp">Olá! Seja Bem-Vindo! Meu nome é</h2>
+    <h1 class="animated fadeInUp">{{ site.author.name }}</h1>
+    <h2 class="animated fadeInUp">e eu sou desenvolvedor PHP com muito orgulho.</h2>
+
+    <!-- <p class="lead animated fadeIn">{{ site.author.bio }}</p> -->
+
+    <a href="{{ '/blog' | prepend: site.baseurl }}" class="btn btn-lg btn-info">Blog</a>
+    <a href="{{ '/about' | prepend: site.baseurl }}" class="btn btn-lg btn-success">Sobre mim</a>
+
+    {% include social.html %}
+
+  </div>
+
 </div>

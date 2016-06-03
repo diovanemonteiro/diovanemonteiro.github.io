@@ -1,5 +1,5 @@
 # Site settings
-title: Diovane Monteiro
+title: title: Diovane Monteiro | Desenvolvedor PHP
 email: diovanemonteiro@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -14,3 +14,19 @@ medium_username: diovanemonteiro
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
+# Author settings
+author:
+  name        : Diovane Monteiro
+  job         : Desenvolvedor PHP
+  bio         : "Eu sou desenvolvedor web com mais de 10 anos de experiência, moro em Manaus - AM e atualmente trabalho com desenvolvimento de software em PHP, Laravel, CakePHP e AngularJS."
+  image       : /images/author.jpg
+  email       : diovanemonteiro@gmail.com
+  url         : http://diovanemonteiro.github.io
+  gravatar    : https://s.gravatar.com/avatar/eca0b8b58ecfe56754db566e202d3a9c?s=150
+  github      : http://github.com/diovanemonteiro
+  twitter     : http://twitter.com/diovanemonteiro
+  google_plus : http://plus.google.com/u/0/+DiovaneMonteiro
+  medium      : http://medium.com/@diovanemonteiro
+  facebook    : http://facebook.com/diovanemonteiro
+  linkedin    : http://linkedin.com/in/diovanemonteiro
