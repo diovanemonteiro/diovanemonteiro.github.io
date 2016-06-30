@@ -1,6 +1,6 @@
-<footer class="site-footer">
+<!-- <footer class="site-footer">
 
-  <!-- <div class="wrapper">
+  <div class="wrapper">
 
     <h2 class="footer-heading">{{ site.title }}</h2>
 
@@ -14,21 +14,31 @@
 
       <div class="footer-col  footer-col-2">
           {% if site.github_username %}
-          
+
           {% endif %}
 
           {% if site.twitter_username %}
-          
+
           {% endif %}
       </div>
 
       <div class="footer-col  footer-col-3">
         <p class="text">{{ site.description }}</p>
       </div>
-    </div> -->
+    </div>
 
   </div>
 
+</footer> -->
+
+<footer class="site-footer clearfix">
+    <section class="copyright">
+        <a href="{{ site.baseurl }}">{{ site.name }}</a> &copy;
+        {{date format="YYYY"}} &bull; All rights reserved.
+    </section>
+    <section class="poweredby">Made with Jekyll using
+        <a href="http://github.com/rosario/kasper">Kasper theme</a>
+    </section>
 </footer>
 
 <!-- Bootstrap core JavaScript
@@ -39,7 +49,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip();
-  })      
-</script> 
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
