@@ -540,7 +540,7 @@ body.is-loading .intro-inner h1:after {
     .btn {
         display: block;
         width: 100%;
-        padding: 0.2rem;
+        padding: 0.4rem;
         font-size: 1.4rem; 
     }
         
@@ -550,14 +550,18 @@ body.is-loading .intro-inner h1:after {
     }
 
     .intro-inner h1 {
-        font-size: 2.95rem;
+        font-size: 2.6rem;
         margin: .8rem 0;
     } 
 
     .intro-inner h2 {
         font-size: 1.5rem;
-        margin: 1.2rem 0;
+        margin: 1.5rem 0;
     } 
+
+    .social {
+        margin: 2.5rem 0 0 0;
+    }
 
     .profile-picture {
         width: 100px;
@@ -565,6 +569,6 @@ body.is-loading .intro-inner h1:after {
     }
 
     .fa-2x {
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
 }
