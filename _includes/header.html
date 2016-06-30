@@ -1,33 +1,8 @@
-<!-- <header class="site-header">
-
-    <div class="wrapper">
-        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-        <nav class="site-nav">
-            <div class="trigger">
-                {% for page in site.pages %}
-                {% if page.title %}
-                <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                {% endif %}
-                {% endfor %}
-            </div>
-        </nav>
-    </div>
-
-</header>
- -->
 <header class="page-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
-    <!-- <header class="page-header"> -->
     <a href="{{ '/' | prepend: site.baseurl }}">
         <img src="{{ site.author.gravatar }}?s=120" alt="Diovane onteiro de Sousa" class="profile-picture img-circle">
     </a>
-
-    <!-- <h1 class="page-title">{{ site.name }}</h1> -->
     <h1 class="site-title">{{ site.author.name }}</h1>
     <h3>{{ site.author.job }}</h3>
-<!-- <h2 class="page-description">
-{% if site.description %} {{ site.description }}. {% endif %}
-{% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
-</h2> -->
-
     {% include social.html %}
 </header>
