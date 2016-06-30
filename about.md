@@ -1,10 +1,13 @@
 ---
 layout: default
 title: Sobre mim
+<!-- cover: /assets/images/cover.jpg -->
 permalink: /about/
 ---
 
-# Quem sou eu
+# Sobre mim
+
+## Quem sou eu
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
@@ -12,13 +15,13 @@ You can find the source code for the Jekyll new theme at: [github.com/jglovier/j
 
 You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 
-![Diovane Monteiro](/assets/images/profile-github.jpg){:class="img-rounded"}
+<!-- ![Diovane Monteiro](/assets/images/author.jpg){:class="img-rounded"} -->
 
 <p class="text-left about">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius sagittis viverra. Mauris sollicitudin mauris eget pretium posuere. Aenean non finibus ex. Aenean quis mi suscipit, accumsan diam quis, faucibus libero. Praesent ornare rutrum pretium. Suspendisse potenti. Nam pharetra pharetra justo, ac ultrices mi malesuada quis. Vivamus feugiat tellus non cursus facilisis. Quisque lacinia eros nulla, hendrerit varius purus maximus a. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam nec ipsum id diam laoreet faucibus. Donec feugiat est eget nunc tincidunt mattis. Proin a sapien sed metus blandit ultricies et eu velit. Donec lobortis auctor risus, eu blandit turpis faucibus a.
 </p>
 
-# Habilidades
+## Habilidades
 
 <div class="text-left animated zoomIn">
   <label>Java</label>
@@ -55,16 +58,16 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
   <span class="fa fa-star-o fa-2x" data-rating="5"></span>
 </div>
 
-# Livros que estou lendo
+## Livros que estou lendo
 
-## Trilha PHP
+### Trilha PHP
 
 * PHP Web Services
 * PHP Moderno
 * Padrões de Projeto em PHP
 * PHP Orientação a Objetos
 
-## Trilha AngularJS
+### Trilha AngularJS
 
 * AngularJS - Uma Abordagem Prática
 * Introdução ao AngularJS
