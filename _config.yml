@@ -18,12 +18,12 @@ highlighter: rouge
 # Author settings
 author:
   name        : Diovane Monteiro
-  job         : Desenvolvedor PHP
+  job         : Desenvolvedor PHP e apaixonado por tecnologias web
   bio         : "Eu sou desenvolvedor web com mais de 10 anos de experiência, moro em Manaus - AM e atualmente trabalho com desenvolvimento de software em PHP, Laravel, CakePHP e AngularJS."
   image       : /images/author.jpg
   email       : diovanemonteiro@gmail.com
   url         : http://diovanemonteiro.github.io
-  gravatar    : https://s.gravatar.com/avatar/eca0b8b58ecfe56754db566e202d3a9c?s=150
+  gravatar    : https://s.gravatar.com/avatar/eca0b8b58ecfe56754db566e202d3a9c
   github      : http://github.com/diovanemonteiro
   twitter     : http://twitter.com/diovanemonteiro
   google_plus : http://plus.google.com/u/0/+DiovaneMonteiro
