@@ -2,46 +2,59 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-03-17 21:48:51
+cover: /assets/images/cover.jpg
 categories: jekyll update
 ---
+
 You’ll find this post in your **_posts** directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
 Jekyll also offers powerful support for code snippets:
 
+{% highlight html %}
+<div class="post-header-container">
+    <div class="scrim">
+        <header class="post-header">
+            <h1 class="title">Markdown Gramma</h1>
+            <p class="info">by <strong>Benjamin</strong></p>
+        </header>
+    </div>
+</div>
+{% endhighlight %}
+
 {% highlight php %}
 <?php
 public function actionAutoSave() {
-	if (Yii::app()->request->isAjaxRequest) {
+    if (Yii::app()->request->isAjaxRequest) {
 
-		if (isset($_POST['Submissoes'])) {
-			$novasubmissao = new Submissoes;
-			$novasubmissao->attributes = $_POST['Submissoes'];
+        if (isset($_POST['Submissoes'])) {
+            $novasubmissao = new Submissoes;
+            $novasubmissao->attributes = $_POST['Submissoes'];
 
-			$pathdir = Yii::app()->basePath.'/../uploads/codes/' . $novasubmissao->id_trabalho . '/' . $novasubmissao->id_aluno;
+            $pathdir = Yii::app()->basePath.'/../uploads/codes/' . $novasubmissao->id_trabalho . '/' . $novasubmissao->id_aluno;
 
-			is_dir($pathdir) || mkdir($pathdir, 0777, true);
-			chdir($pathdir);
+            is_dir($pathdir) || mkdir($pathdir, 0777, true);
+            chdir($pathdir);
 
-			$extensao = $novasubmissao->idTrabalho->idlinguagem->extensao;
-			$arquivo_fonte       = $pathdir . '/' . $novasubmissao->id_exercicio . $extensao;
+            $extensao = $novasubmissao->idTrabalho->idlinguagem->extensao;
+            $arquivo_fonte   = $pathdir . '/' . $novasubmissao->id_exercicio . $extensao;
 
-			// Escreve no arquivo
-			file_put_contents($arquivo_fonte, $novasubmissao->codigo_arquivo);
-		}
+            // Escreve no arquivo
+            file_put_contents($arquivo_fonte, $novasubmissao->codigo_arquivo);
+        }
 
-		echo $novasubmissao->codigo_arquivo;
-	}
+        echo $novasubmissao->codigo_arquivo;
+    }
 
-	return true;
+    return true;
 }
 ?>
 {% endhighlight %}
 
 {% highlight ruby %}
 def print_hi(name)
-  puts "Hi, #{name}"
+    puts "Hi, #{name}"
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
