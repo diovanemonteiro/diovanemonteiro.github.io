@@ -1,6 +1,6 @@
 root = true
 
-[*.{html, css, js}]
+[*.{html, css, js, md, markdown}]
 indent_style = space
 indent_size = 4
 end_of_line = lf
