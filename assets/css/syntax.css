@@ -5,6 +5,7 @@
 	background-color: #f8f8f8;
     /*color: #27badf;*/
 	overflow-x: auto;
+	white-space: pre !important;
 }
 
 /** Syntax highlighting styles */
