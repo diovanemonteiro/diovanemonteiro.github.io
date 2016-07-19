@@ -1,62 +1,34 @@
 ---
-layout: default
+layout: page
 title: Sobre mim
 <!-- cover: /assets/images/cover.jpg -->
 permalink: /about/
 ---
 
-# Sobre mim
+<!-- ![Diovane Monteiro](/assets/images/author.jpg){:class="img-circle"} -->
 
-## Quem sou eu
+Olá! Meu nome é **Diovane Monteiro** tenho 29 anos de idade sou de Manaus - Amazonas. Sou analista e desenvolvedor de sistemas formado em Sistemas de Informação pela [UFAM - Universidade Federal do Amazonas](http://www.ufam.edu.br) e atuo como desenvolvedor web profissionalmente desde 2005. Atualmente estou trabalhando na [PRODAM - Processamento de Dados Amazonas S.A.](http://www.prodam.am.gov.br), é uma empresa de sociedade de economia mista cujo principal objetivo é prestar serviço em Tecnologia da Informação e Comunicação para o estado do Amazonas, como desenvolvedor PHP. 
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Sou apaixonado por tecnologias web principalmente as tecnologias que envolvem o ecossistema [PHP](http://php.net), como o [Composer](http://getcomposer.org), frameworks [Laravel](http://laravel.com) e [CakePHP](http://cakephp.org), [PSRs](http://www.php-fig.org), PHP Design Patterns, PHP 7 e etc. Ultimamente para projetos pessoais venho utilizando o framework [Laravel](http://laravel.com) no back-end, um dos frameworks PHP mais populares na atualidade e tenho direcionado meus estudos para tecnologias voltadas para o front-end, como HTML 5, CSS 3, pré-processadores css como SASS e me aventurando com os frameworks [AngularJS](http://angularjs.org) e [Vue.js](http://vuejs.org).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+No trabalho, faço parte da equipe de desenvolvimento de um projeto para a área de saúde, utilizamos metodologias ágeis, arquitetura orientada a serviços, Java no back-end e [AngularJS](http://angularjs.org) no front-end. Tem sido uma aventura muito boa mergulhar nesse mundo front-end, tenho aprendido bastante sobre novas tecnologias e me atualizado sobre as novidades do HTML 5, CSS 3 e JavaScript.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Nas horas vagas para relaxar a presença é obrigatória no futebol com os amigos, gosto de ir ao cinema, jogar videogame e assistir um bom filme em casa.
 
-<!-- ![Diovane Monteiro](/assets/images/author.jpg){:class="img-rounded"} -->
+## Sobre o blog
+O objetivo deste blog é despertar a curiosidade dos assuntos abordados
 
-<p class="text-left about">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius sagittis viverra. Mauris sollicitudin mauris eget pretium posuere. Aenean non finibus ex. Aenean quis mi suscipit, accumsan diam quis, faucibus libero. Praesent ornare rutrum pretium. Suspendisse potenti. Nam pharetra pharetra justo, ac ultrices mi malesuada quis. Vivamus feugiat tellus non cursus facilisis. Quisque lacinia eros nulla, hendrerit varius purus maximus a. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam nec ipsum id diam laoreet faucibus. Donec feugiat est eget nunc tincidunt mattis. Proin a sapien sed metus blandit ultricies et eu velit. Donec lobortis auctor risus, eu blandit turpis faucibus a.
-</p>
+## Minhas habilidades são
 
-## Habilidades
-
-<div class="text-left animated zoomIn">
-  <label>Java</label>
-  <div class="progress">
-    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-      <span class="sr-only">40% Complete (success)</span>40%
-    </div>
-  </div>
-  <label>AngularJS</label>
-  <div class="progress">
-    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-      <span class="sr-only">20% Complete</span>20%
-    </div>
-  </div>
-  <label>CSS</label>
-  <div class="progress">
-    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-      <span class="sr-only">60% Complete (warning)</span>60%
-    </div>
-  </div>
-  <label>PHP</label>
-  <div class="progress">
-    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-      <span class="sr-only">80% Complete (danger)</span>80%
-    </div>
-  </div>
-</div>
-
-<div> 
-  <span class="fa fa-star fa-2x" data-rating="1"></span>
-  <span class="fa fa-star fa-2x" data-rating="2"></span>
-  <span class="fa fa-star fa-2x" data-rating="3"></span>
-  <span class="fa fa-star-o fa-2x" data-rating="4"></span>
-  <span class="fa fa-star-o fa-2x" data-rating="5"></span>
-</div>
+* HTML 5
+* CSS 3
+* JavaScript
+* PHP
+* Frameworks PHP(CakePHP e Laravel)
+* AngularJS
+* Git
+* Scrum e Kanban
+* Java
 
 ## Livros que estou lendo
 
