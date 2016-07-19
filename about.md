@@ -44,7 +44,7 @@ O objetivo deste blog é compartilhar conhecimento e despertar a curiosidade dos
 
 * AngularJS - Uma Abordagem Prática
 * Introdução ao AngularJS
-* Denvolvendo com AngularJS
+* Desenvolvendo com AngularJS
 
 ## Contato
 
