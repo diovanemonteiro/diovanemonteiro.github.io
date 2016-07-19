@@ -2,6 +2,61 @@
 
 /* reset  */
 
+/***** Icons *****/
+@font-face {
+    font-family: 'dmonteiro-icons';
+    src:    url('../fonts/dmonteiro-icons.eot?qorfbs');
+    src:    url('../fonts/dmonteiro-icons.eot?qorfbs#iefix') format('embedded-opentype'),
+        url('../fonts/dmonteiro-icons.ttf?qorfbs') format('truetype'),
+        url('../fonts/dmonteiro-icons.woff?qorfbs') format('woff'),
+        url('../fonts/dmonteiro-icons.svg?qorfbs#dmonteiro-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'dmonteiro-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+    content: "\f099";
+}
+.icon-github:before {
+    content: "\f09b";
+}
+.icon-feed:before {
+    content: "\f09e";
+}
+.icon-rss:before {
+    content: "\f09e";
+}
+.icon-google-plus:before {
+    content: "\f0d5";
+}
+.icon-envelope:before {
+    content: "\f0e0";
+}
+.icon-medium:before {
+    content: "\f23a";
+}
+.icon-google-plus-circle:before {
+    content: "\f2b3";
+}
+.icon-google-plus-official:before {
+    content: "\f2b3";
+}
+
 /* general */
 
 /* typography */
@@ -25,14 +80,19 @@
 html {
     height: 100%;
     min-height: 100%;
+    font-size: 62.5%;
 }
 
 body {
-    font-family: "Open Sans", "Roboto", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
     height: 100%;
     min-height: 100%;
+    /*max-height: 100%;*/
+    font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.01rem;
+    font-size: 1.8rem;
+    line-height: 1.75em;
     background-color: #fff;
+    color: #3A4145;
 }
 
 body.home {
@@ -69,7 +129,38 @@ body.home {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
+    line-height: 1.15em;
+    margin: 0 0 0.4em 0;
+    text-rendering: geometricPrecision;
+}
+
+h1 {
+    font-size: 5rem;
+    letter-spacing: -2px;
+    text-indent: -3px;
+}
+
+h2 {
+    font-size: 3.6rem;
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+h6 {
+    font-size: 2rem;
 }
 
 p.lead {
@@ -83,12 +174,22 @@ p.about {
     /*font-weight: 500;*/
 }
 
-a {
-    
+p, ul, ol, dl {
+    -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+    -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+    -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
+    margin: 0 0 1.75em 0;
+    text-rendering: geometricPrecision;
 }
 
-ul {
-    padding: 0;
+ol, ul {
+    padding-left: 3rem;
+}
+
+ol ol, ul ul,
+ul ol, ol ul {
+    margin: 0 0 0.4em 0;
+    padding-left: 2em;
 }
 
 .progress {
@@ -103,6 +204,7 @@ ul {
 
 /******  Buttons Style ********/
 .btn {
+    font-family: "Open Sans", sans-serif;
     font-size: 1.8rem;
 
     display: inline-block;
@@ -234,7 +336,9 @@ nav {
 
 
 /****** Footer Style *********/
-footer {}
+footer {
+
+}
 
 .footer-main {
     border-top: 1px solid #ededed;
@@ -276,15 +380,18 @@ footer {}
 
 .site-footer {
     position: relative;
-    margin: 8rem 0 0 0;
-    padding: 4rem 0;
+    margin: 4rem 0 0 0;
+    padding: 1.2rem 0;
     border-top: #EBF2F6 1px solid;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
     line-height: 1.7em;
-    color: #BBC7CC;
+    /*color: #BBC7CC;*/
+    color: #fff;
     text-align: center;
     background: #F7FAFB;
+    background: #1bb1b2;
+    border-top: 4px solid #36677A;
 }
 
 .site-footer a {
@@ -447,7 +554,8 @@ footer {}
     content: '';
     /*background: #2e3842;*/
     /*background: #4A4A4A;*/
-    background-color: #2e3842;
+    /*background-color: #1F5768;*/
+    background: #262f3a;
     display: block;
     width: 100%;
     height: 100%;
