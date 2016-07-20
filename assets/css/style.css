@@ -56,6 +56,9 @@
 .icon-google-plus-official:before {
     content: "\f2b3";
 }
+.icon-heart:before {
+    content: "\f004";
+}
 
 /* general */
 
