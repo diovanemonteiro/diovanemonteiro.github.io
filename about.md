@@ -13,7 +13,7 @@ Sou apaixonado por tecnologias web principalmente as tecnologias que envolvem o 
 
 No trabalho, faço parte da equipe de desenvolvimento de um projeto para a área de saúde, utilizamos metodologias ágeis, arquitetura orientada a serviços, Java no back-end e [AngularJS](http://angularjs.org) no front-end. Tem sido uma aventura e tanto mergulhar nesse mundo front-end cheio de novas possibilidades, tenho aprendido bastante sobre novas tecnologias e me atualizado sobre as novidades do HTML 5, CSS 3 e JavaScript.
 
-Para relaxar, gosto de jogar futebol com os amigos pelo menos uma vez por semana, gosto de ir ao cinema, jogar videogame e assistir um bom filme em casa.
+Para relaxar, gosto de ir ao cinema com a namorada, jogar futebol com os amigos, jogar videogame, assistir um bom filme em casa ou sair com a família aos finais de semana.
 
 ## Sobre o blog
 
