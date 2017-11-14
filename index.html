@@ -1,13 +1,40 @@
 ---
 layout: home
+hero-title: "Lorem Ipsum"
+hero-subtitle: "Using the Wordpress Customizer you can make updates"
+#hero-image: "data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs="
+hero-image: "/assets/images/profile_picture.jpg"
 ---
 
-<div class="intro">
-    <!-- <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="160" height="160" class="img-circle" alt="Generic placeholder thumbnail" style="border: 4px solid #d3e0e9; padding: 3px;"> -->
-    <img src="/assets/images/profile_picture.jpg" class="img-circle" alt="Generic placeholder thumbnail" style="height: 200px; width: 200px; border: 5px solid #d3e0e9; padding: 3px;">
+<!-- <div class="intro">
+    <div class="intro-inner">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="160" height="160" class="img-circle" alt="Generic placeholder thumbnail" style="border: 4px solid #d3e0e9; padding: 3px;">
+        <img src="/assets/images/profile_picture.jpg" class="img-circle" style="height: 160px; width: 160px; border: 5px solid #d3e0e9; padding: 3px;">
+        <h1>Diovane Monteiro</h1>
+        <h2>Desenvolvedor PHP e Laravel</h2>
+    </div>
+</div> -->
 
-    <h1>Lorem Ipsum</h1>
-    <h2>Lorem Ipsum é simplesmente uma simulação de texto</h2>
+<div class="hero">
+    <div class="hero-image">
+        <img src="{{ page.hero-image }}" alt="Diovane Monteiro">
+    </div>
+    <div class="hero-content">
+        <h1 class="hero-title">{{ page.hero-title }}</h1>
+        <h2 class="hero-description">{{ page.hero-subtitle }}</h2>
+        <!-- <a href="#" class="btn">Meu Blog</a> -->
+        <a href="#" class="btn">Sobre mim</a>
+        <nav class="social">
+            <ul>
+                <li><a href="http://twitter.com/diovanemonteiro" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Twitter"><i class="icon-twitter fa-4x"></i>&nbsp;&nbsp;</a></li>
+                <li><a href="http://plus.google.com/u/0/+DiovaneMonteiro" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Google+"><i class="icon-google-plus fa-4x"></i>&nbsp;&nbsp;</a></li>
+                <li><a href="http://github.com/diovanemonteiro" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Github"><i class="icon-github fa-4x"></i>&nbsp;&nbsp;</a></li>
+                <li><a href="http://medium.com/@diovanemonteiro" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Medium"><i class="icon-medium fa-4x"></i>&nbsp;&nbsp;</a></li>
+                <li><a href="mailto:diovanemonteiro@gmail.com" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="E-mail"><i class="icon-envelope fa-4x"></i>&nbsp;&nbsp;</a></li>
+                <li><a href="/feed.xml" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Feed"><i class="fa fa-rss fa-4x"></i>&nbsp;&nbsp;</a></li>
+            </ul>
+        </nav>
+    </div>
 </div>
 
 <!-- <main class="intro">
