@@ -4,8 +4,8 @@ body {
     color: #6a6384;
     background-color: #fff;
     font-family: 'Open Sans', 'Merriweather', sans-serif;
-    font-size: 100%;
-    /*border-top: 5px solid red;*/
+    /*font-size: 100%;*/
+    /*border-top: 5px solid black;*/
 }
 
 /* html, body {
@@ -54,7 +54,7 @@ main {
 
 /*apply accent colour to links*/
 
-a:link, a:visited {
+/* a:link, a:visited {
     color: red;
 }
 
@@ -65,7 +65,7 @@ a.icon:hover {
 a:hover {
     color: red !important;
 }
-
+ */
 /*paginator at bottom of list view*/
 
 .pages {
@@ -114,21 +114,25 @@ img {
 
 .hero {
     display: flex;
-    background-image: url('https://picsum.photos/1500/?random');
+    /*background-image: url('https://picsum.photos/1920/1080/?random');*/
     /*flex-flow: row nowrap;*/
     flex-direction: column;
     /*flex-wrap: nowrap;*/
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    /*border-top: 5px solid red;*/
+    /*border-bottom: 5px solid red;*/
 }
 
 .hero-image img {
-    height: 160px;
-    width: 160px;
-    border: 5px solid #d3e0e9;
+    height: 180px;
+    width: 180px;
+    /*border: 5px solid #d3e0e9;*/
+    border: 5px solid #666;
     padding: 3px;
     border-radius: 50%;
+    box-shadow: 0px 2px 6px 1px rgba(0,0,0,0.5);
 }
 
 .hero-content {
@@ -138,7 +142,7 @@ img {
 }
 
 .hero-content > h1 {
-    color: #212121;
+    color: #444;
     font-size: 8rem;
     margin-top: 10px;
     text-align: center;
@@ -149,10 +153,58 @@ img {
     color: #777;
     font-size: 3vmin;
     text-align: center;
+    margin-top: 10px;
 }
 
+hr {
+    max-width: 400px;
+    margin: 25px auto 25px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 5px red;
+    /*margin-left: 0;*/
+    /*margin-right: 0;*/
+    width: 100%;
+}
+
+.btn-outline {
+    font-size: 20px;
+    margin-top: 20px;
+    transition: all .3s ease-in-out;
+    color: #666;
+    border: solid 2px #eee;
+    background: 0 0;
+}
+
+.btn.active, 
+.btn:active, 
+.btn:focus, 
+.btn:hover {
+    color: #fff;
+    border: solid 2px #ee4b28;
+    background: #ee4b28;
+}
+
+.btn + .btn {
+    margin-left: 1rem; 
+}
+
+.btn:active,
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(240,95,64,.5);
+}
+
+/* .btn-group-lg > .btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+} */
+
 /******  Buttons Style ********/
-.btn {
+/* .btn {
     font-size: 1.8rem;
     display: inline-block;
     margin: 2rem 0 1rem 0;
@@ -176,12 +228,12 @@ img {
 
 .btn + .btn {
     margin-left: 1rem; 
-}
+} */
 
 
 /****** Social Navigation Style *********/
 .social {
-    margin: 40px 0 0 0;
+    margin: 30px 0 0 0;
     text-align: center;
 }
 
@@ -191,7 +243,7 @@ img {
 }
 
 .social a {
-    color: #fff;
+    color: #666;
     text-decoration: none;
 }
 
@@ -199,7 +251,8 @@ img {
 .social a:active, 
 .social a:focus {
     /*color: #4cae4c;*/
-    color: #e67e22;
+    /*color: #e67e22;*/
+    color: #ee4b28;
     /*color: #999;*/
 }
 
