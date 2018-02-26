@@ -121,8 +121,8 @@ img {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    /*border-top: 5px solid red;*/
-    /*border-bottom: 5px solid red;*/
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
 }
 
 .hero-image img {
@@ -157,7 +157,7 @@ img {
 }
 
 hr {
-    max-width: 400px;
+    max-width: 150px;
     margin: 25px auto 25px;
     padding: 0;
     text-align: center;
@@ -237,6 +237,10 @@ hr {
     text-align: center;
 }
 
+.social > ul {
+    padding: 0;
+}
+
 .social li {
     display: inline-block;
     padding: 0 0.6em;
@@ -252,7 +256,8 @@ hr {
 .social a:focus {
     /*color: #4cae4c;*/
     /*color: #e67e22;*/
-    color: #ee4b28;
+    /* color: #ee4b28; */
+    color: #000;
     /*color: #999;*/
 }
 
