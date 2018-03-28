@@ -1,0 +1,57 @@
+---
+layout: home
+---
+
+<div class="intro">
+
+    <div class="intro-inner">
+
+        <a href="{{ '/about' | prepend: site.baseurl }}">
+            <img src="{{ site.author.gravatar }}?s=150" alt="Diovane Monteiro de Sousa" class="profile-picture img-circle animated fadeInDown">
+        </a>
+
+        <h2 class="subtitle animated fadeInUp">Olá! Seja Bem-Vindo! Meu nome é</h2>
+        <h1 class="title">{{ site.author.name }}</h1>
+        <h2 class="subtitle animated fadeInUp">eu sou desenvolvedor PHP com muito orgulho.</h2>
+
+        <!-- <p class="lead animated fadeIn">{{ site.author.bio }}</p> -->
+
+        <!-- <a href="{{ '/blog' | prepend: site.baseurl }}" class="btn animated fadeInUp">Blog</a> -->
+        <a href="{{ '/about' | prepend: site.baseurl }}" class="btn animated fadeInUp">Sobre mim</a>
+
+        {% include social.html %}
+
+    </div>
+
+</div>
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    $(function () {
+
+        $('[data-toggle="tooltip"]').tooltip();
+
+        var $window = $(window),
+            $body = $('body'),
+            $avatar = $('.intro-inner img');
+
+        // Disable animations/transitions until the page has loaded.
+        $body.addClass('is-loading');
+
+        $window.on('load', function() {
+            window.setTimeout(function() {
+                $body.removeClass('is-loading');
+            }, 100);
+
+
+            /*$('.intro-inner h2').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+                $avatar.addClass('animated').addClass('fadeInDown');
+            });*/
+
+        });
+
+    });
+</script>

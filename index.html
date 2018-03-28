@@ -1,57 +1,53 @@
----
-layout: home
----
-
-<div class="intro">
-
-    <div class="intro-inner">
-
-        <a href="{{ '/about' | prepend: site.baseurl }}">
-            <img src="{{ site.author.gravatar }}?s=150" alt="Diovane Monteiro de Sousa" class="profile-picture img-circle animated fadeInDown">
-        </a>
-
-        <h2 class="subtitle animated fadeInUp">Olá! Seja Bem-Vindo! Meu nome é</h2>
-        <h1 class="title">{{ site.author.name }}</h1>
-        <h2 class="subtitle animated fadeInUp">eu sou desenvolvedor PHP com muito orgulho.</h2>
-
-        <!-- <p class="lead animated fadeIn">{{ site.author.bio }}</p> -->
-
-        <!-- <a href="{{ '/blog' | prepend: site.baseurl }}" class="btn animated fadeInUp">Blog</a> -->
-        <a href="{{ '/about' | prepend: site.baseurl }}" class="btn animated fadeInUp">Sobre mim</a>
-
-        {% include social.html %}
-
-    </div>
-
-</div>
-
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-<script type="text/javascript">
-    $(function () {
-
-        $('[data-toggle="tooltip"]').tooltip();
-
-        var $window = $(window),
-            $body = $('body'),
-            $avatar = $('.intro-inner img');
-
-        // Disable animations/transitions until the page has loaded.
-        $body.addClass('is-loading');
-
-        $window.on('load', function() {
-            window.setTimeout(function() {
-                $body.removeClass('is-loading');
-            }, 100);
-
-
-            /*$('.intro-inner h2').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-                $avatar.addClass('animated').addClass('fadeInDown');
-            });*/
-
-        });
-
-    });
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diovane Monteiro | PHP Dev</title>
+    <link rel="icon" href="favicon.ico" type="image/png" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet"> -->
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:400,600,700,400italic,600italic,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- <link rel="stylesheet" href="/assets/css/themes/indigo-white.css"> -->
+    <!-- <link rel="stylesheet" href="/assets/css/themes/green-white.css"> -->
+    <link rel="stylesheet" href="/assets/css/themes/red-white.css">
+    <!-- <link rel="stylesheet" href="/assets/css/themes/grey-white.css"> -->
+    <!-- <link rel="stylesheet" href="/assets/css/themes/white-indigo.css"> -->
+    <!-- <link rel="stylesheet" href="/assets/css/themes/white-blue.css"> -->
+    <!-- <link rel="stylesheet" href="/assets/css/themes/white-grey.css"> -->
+    <!-- <link rel="stylesheet" href="/assets/css/themes/white-red.css"> -->
+    <!-- <link rel="stylesheet" href="/assets/css/themes/yellow-black.css"> -->
+</head>
+<body>
+    <main>
+        <div class="intro">Hello, I'm Diovane Monteiro!</div>
+        <div class="tagline">PHP Dev | Clean Code Fanatic | Agile Beginner</div>
+        <!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
+        <div class="icons-social">
+            <a target="_blank" href="https://github.com/diovanemonteiro"><i class="fab fa-github"></i></a>
+            <a target="_blank" href="https://twitter.com/diovanemonteiro"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://instagram.com/diovanemonteiro"><i class="fab fa-instagram"></i></a>
+            <!-- <a target="_blank" href="https://stackoverflow.com/story/flexdinesh"><i class="fab fa-stack-overflow"></i></a> -->
+            <a target="_blank" href="https://www.linkedin.com/in/diovanemonteiro"><i class="fab fa-linkedin"></i></a>
+            <a target="_blank" href="https://medium.com/@diovanemonteiro"><i class="fab fa-medium"></i></a>
+            <!-- <a target="_blank" href="https://www.freecodecamp.org"><i class="fab fa-free-code-camp"></i></a> -->
+            <!-- <a target="_blank" href="https://www.behance.net"><i class="fab fa-behance"></i></a> -->
+            <!-- <a target="_blank" href="https://codepen.io"><i class="fab fa-codepen"></i></a> -->
+            <a target="_blank" href="mailto:diovanemonteiro@gmail.com"><i class="fas fa-envelope-square"></i></a>
+        </div>
+        <!-- <nav class="social">
+            <ul>
+                <li><a href="http://twitter.com/diovanemonteiro" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Twitter"><i class="icon-twitter fa-2x"></i>&nbsp;&nbsp;</a></li>
+                <li><a href="http://plus.google.com/u/0/+DiovaneMonteiro" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Google+"><i class="icon-google-plus fa-2x"></i>&nbsp;&nbsp;</a></li>
+                <li><a href="http://github.com/diovanemonteiro" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Github"><i class="icon-github fa-2x"></i>&nbsp;&nbsp;</a></li>
+                <li><a href="http://medium.com/@diovanemonteiro" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Medium"><i class="icon-medium fa-2x"></i>&nbsp;&nbsp;</a></li>
+                <li><a href="mailto:diovanemonteiro@gmail.com" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="E-mail"><i class="icon-envelope fa-2x"></i>&nbsp;&nbsp;</a></li>
+                <li><a href="/feed.xml" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Feed"><i class="fa fa-rss fa-2x"></i>&nbsp;&nbsp;</a></li>
+            </ul>
+        </nav> -->
+    </main>
+</body>
+</html>
