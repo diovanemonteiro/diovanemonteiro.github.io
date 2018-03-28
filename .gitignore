@@ -1,4 +1,5 @@
 _site
 .sass-cache
-diovanemonteiro.sublime-project
-diovanemonteiro.sublime-workspace
+*.sublime-project
+*.sublime-workspace
+.vscode
